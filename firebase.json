@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "404": "/404.html",
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -19,6 +18,10 @@
       {
         "source": "/terms",
         "destination": "/terms_and_conditions.html"
+      },
+      {
+        "source": "**",
+        "destination": "/404.html"
       }
     ]
   }
